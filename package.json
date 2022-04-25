@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "name": "flask_practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ovrsa/flask_practice.git",
+  "author": "ovrsa <sufferin.in@gmail.com>",
+  "license": "MIT"
+}
