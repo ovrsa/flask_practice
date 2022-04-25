@@ -5,7 +5,7 @@
   <div class="card-body">
     <form action="/regist" method="POST">
       <div class="mb-3">
-        <input type="text" class="form-control" id="user" name="user" placeholder="ユーザー名を入力">
+        <input type="text" class="form-control" id="username" name="username" placeholder="username">
       </div>
       <div class="mb-3">
         <input type="email" class="form-control" id="email" name="email" placeholder="email">
@@ -13,9 +13,13 @@
       <div class="mb-3">
         <input type="password" class="form-control" id="password" name="password" placeholder="password">
       </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" id="confirm" name="confirm_password" placeholder="password">
+      </div>
       <div class="d-grid gap-2">
         <button type="submit" class="btn btn-primary">新規登録</button>
       </div>
     </form>
   </div>
+
   {% endblock %}
